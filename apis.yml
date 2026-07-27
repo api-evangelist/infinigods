@@ -1,8 +1,14 @@
 aid: infinigods
 name: InfiniGods
-description: 'InfiniGods is a company surfaced as a portfolio company of pantera-capital and added to
-  the API Evangelist network as a stub for enrichment. Sector: crypto. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'InfiniGods is a gaming studio building fun, free-to-play, Web3-powered
+  mobile games centered around ancient mythologies. Its titles — Immortal Siege, King
+  of Destiny, and InfiniMerge — share interoperable gaming assets, items, power-ups,
+  and currencies that span the InfiniGods Universe (IGU). Players collect blockchain
+  assets such as the Elder Gods (a 4,488-piece Gen 0 NFT collection that unlocks abilities
+  and boosts scoring across all titles) and the InfiniPass VIP membership (early access,
+  bonus play, exclusive NFT drops, and in-game boosts). The company is backed by Pantera
+  Capital. InfiniGods is a consumer game studio with no public developer/API program;
+  this profile captures its public web, legal, community, and code-org surface.'
 url: https://raw.githubusercontent.com/api-evangelist/infinigods/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +16,30 @@ x-backed-by:
 - pantera-capital
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.infinigods.com/logo192.png
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
 - Crypto
+- Web3
+- Blockchain Games
+- Gaming
+- Gaming Studio
+- NFT
+- Mobile Games
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +49,34 @@ maintainers:
 common:
 - type: Website
   url: https://www.infinigods.com/
+- type: Blog
+  url: https://medium.com/infinigods
+- type: GitHubOrganization
+  url: https://github.com/infinigods
+- type: Support
+  url: mailto:support@infinigods.com
+- type: TermsOfService
+  url: https://www.infinigods.com/terms-of-use
+- type: PrivacyPolicy
+  url: https://www.infinigods.com/privacy-policy
+- type: Whitepaper
+  url: https://www.infinigods.com/whitepaper
+- type: Discord
+  url: https://discord.gg/rhmRuMeF3y
+- type: X
+  url: https://x.com/InfiniGods
+- type: LinkedIn
+  url: https://www.linkedin.com/company/infinigods
+- type: YouTube
+  url: https://www.youtube.com/@infinigods
+- type: Instagram
+  url: https://www.instagram.com/infinigodsofficial/
+- type: Facebook
+  url: https://www.facebook.com/infinigods
+- type: DomainSecurity
+  url: security/infinigods-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
